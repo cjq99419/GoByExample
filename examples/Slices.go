@@ -29,4 +29,6 @@ func main() {
 
 	d := []string{"aa", "bb", "cc"}
 	Println("dcl: ", d)
+
+	d = append(d, "ccdd")
 }
